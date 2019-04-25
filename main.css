@@ -1,0 +1,9 @@
+.image-grid {
+  display: grid;
+}
+
+.image-grid {
+  background-image: url("http://lorempixel.com/400/200/sports/");
+  width:  200px;
+  height: 200px;
+}
