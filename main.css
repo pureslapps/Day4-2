@@ -25,11 +25,34 @@ body {
   font-size: 18px;
 }
 
+.main-header h1, .main-header h2 {
+  color: whitesmoke;
+}
+
+.search-grid {
+  display: grid;
+  grid-template: 100px / 200px 200px;
+}
+
+.title-head {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0;
+}
+
+.main-header {
+  background-image: url("https://cdn.vox-cdn.com/thumbor/ufh2N5hs2Jq5GT2xMFrQ_Nodgp8=/0x0:5760x3840/1200x900/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/55306753/shutterstock_274960727.0.jpg");
+  background-size: cover;
+  background-size: 50% 30%;
+  height: 60vh;
+}
+
 .image-grid {
   display: grid;
 }
 
-.image-grid {
+.image-grid div{
   background-image: url("http://lorempixel.com/400/200/sports/");
   width:  200px;
   height: 200px;
