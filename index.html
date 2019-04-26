@@ -2,49 +2,70 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <title>Century 21 Real Estate</title>
   </head>
   <body>
     <nav id="navbar">
-    <img src="https://seeklogo.com/images/C/Century_21-logo-78521142FF-seeklogo.com.png"alt="">
-      <ul></a>
-        <li><a href="#"></a>Search</li>
-        <li><a href="#"></a>Featured Lsiting</li>
-        <li><a href="#"></a>Buyers / Sellers</li>
-        <li><a href="#"></a>Blog</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Contact</li>
+    <img src="https://seeklogo.com/images/C/Century_21-logo-78521142FF-seeklogo.com.png">
+      <ul>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Featured Listings</a></li>
+        <li><a href="#">Buyers / Sellers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <section class='main-header'>
+    <section class="main-header">
       <div class="search-grid">
         <div>
           <h1 class="title-head">Search Lake Tahoe</h1>
-          <form class="seach-form">
+          <form class="search-form">
+             <label>Location</label><br>
+             <input type="text" placeholder="Enter city, zip, community, or subdivision">
+             <input type="submit" value="submit"><br>
+             <label>Min. Price</label>
+             <label>Max. Price</label>
+             <label>Beds</label>
+             <label>Baths</label><br>
+             <input type="number">
+             <input type="number">
+             <select>
+              <option></option>
+              <option>1 Bedroom</option>
+              <option>2 Bedrooms</option>
+             </select>
 
-            </form>
+             <select>
+              <option></option>
+              <option>1 Bathroom</option>
+              <option>2 Bathrooms</option>
+             </select>
+          </form>
         </div>
         <div>
-            <h2>Search by Lake Area</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+          <h2>Search by Area</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
         </div>
       </div>
     </section>
-    <section>
+    <section class="info-section">
       <div class="info-grid">
         <div>
-        <h2>Lake Tahoe Real Estate</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2 class="info-header">Lake Tahoe Real Estate</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
         </div>
         <div class="image-grid">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div><button>Luxury</button></div>
+          <div><button>Lake View</button></div>
+          <div><button>Gallery</button></div>
+          <div><button>Real Estate</button></div>
         </div>
+      </div>
     </section>
   </body>
 </html>
